@@ -9577,7 +9577,7 @@ end
 if msg and not DevBROK:get(Alshsource..'BROK:Update') then
 DevBROK:set(Alshsource..'BROK:Update',true)
 os.execute('unlink JSON.lua && unlink dkjson.lua')
-os.execute('git clone https://github.com/AlshsourceTEAM/libs') 
+os.execute('git clone https://github.com/Alshsourceteam/libs') 
 dofile('Alshsource.lua') 
 end
 --     Source Alshsource     --
